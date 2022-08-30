@@ -138,7 +138,7 @@ new_loan_price = new_loan.get("loan_price")
 new_loan_discount_rate = 0.20
 new_loan_present_value = new_loan_future_value / ((1 + new_loan_discount_rate/12) ** new_loan_remaining_months)
 
-print(f"The present value of the loan is: {new_loan_present_value}")
+print(f"The present value of the new 2nd loan is: {new_loan_present_value}")
 
 
 """Part 4: Conditionally filter lists of loans.
