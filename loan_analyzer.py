@@ -228,5 +228,5 @@ with open(csvpath, "w") as csvfile:
         csvwriter = csv.writer(csvfile, delimiter=",")
         csvwriter.writerow(header)
 
-for item in inexpensive_loans:
-    csvwriter.writerow(item.values())
+        for item in inexpensive_loans:
+            csvwriter.writerow(item.values())
